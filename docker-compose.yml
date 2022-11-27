@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:14.2
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=Your_password123
+      - POSTGRES_DB=hackathon
+    ports:
+      - "5432:5432"
+  backend:
+    image: skalahonza/bildmlue-be
+    build:
+      context: backend
+      dockerfile: API/Dockerfile
+
+volumes:
+  database:
+    driver: local

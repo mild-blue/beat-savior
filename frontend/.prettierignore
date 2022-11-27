@@ -1,0 +1,5 @@
+android
+ios
+src/generated
+src/swagger.json
+/vendor

@@ -1,0 +1,3 @@
+# Ensure all sh script files use LF.
+*.sh        eol=lf
+
