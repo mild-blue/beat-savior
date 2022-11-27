@@ -11,6 +11,33 @@ Can you build an application that notifies nearby paramedics about a resuscitati
 * Google Play: TODO
 * Test flight: we can invite you 
 
+## How to test
+1. You can login with empty username
+2. Click on Test Mode
+3. Bellow are roles you can test
+
+### Test CPR capable responder
+1. Accept alert
+2. Click on navigate maps app
+3. Go back in the app
+4. After the rescue click on End mission
+
+### Test NOT CPR capable responder
+1. Accept alert
+2. Click on navigate maps app
+3. Go back in the app
+4. Confirm AED ppickup
+5. Click on navigate maps app
+6. Go back in the app
+7. End mission and return AED
+8. Click on navigate maps app
+9. Go back in the app
+10. Confirm return AED
+
+### Other features
+* signup as CPR capable person
+* signup as CPR non-capable person (no training or certification)
+
 ## Technologies used
 
 ### Backed 
