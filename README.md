@@ -12,6 +12,8 @@ Can you build an application that notifies nearby paramedics about a resuscitati
 * Test flight: we can invite you 
 
 ## How to test
+Although the testing buttons have fixed incident coordinates the app is fully functional and can solve incident on any poisiton.
+
 1. You can login with empty username
 2. Click on Test Mode
 3. Bellow are roles you can test
